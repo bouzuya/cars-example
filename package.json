@@ -30,9 +30,6 @@
     "express": "^4.10.7"
   },
   "devDependencies": {},
-  "engines": {
-    "node": "4.x"
-  },
   "homepage": "https://github.com/bouzuya/cars",
   "keywords": [
     "shuburi"
