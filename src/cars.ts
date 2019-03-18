@@ -50,7 +50,7 @@ const main = async (): Promise<void> => {
     // tslint:disable:no-console
     console.log('reporter: ' + reporter);
     // tslint:enable
-    await require(reporter)(allCounts);
+    await require(reporter).default(allCounts);
   }, Promise.resolve());
 };
 
