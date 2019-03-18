@@ -28,12 +28,12 @@
     "url": "https://github.com/bouzuya/cars/issues"
   },
   "dependencies": {
-    "cars-counter-bbn-entries": "https://github.com/bouzuya/cars-counter-bbn-entries",
-    "cars-counter-github": "https://github.com/bouzuya/cars-counter-github",
-    "cars-counter-hatena-bookmark": "https://github.com/bouzuya/cars-counter-hatena-bookmark",
-    "cars-counter-twitter": "https://github.com/bouzuya/cars-counter-twitter",
-    "cars-counter-wakeup": "https://github.com/bouzuya/cars-counter-wakeup",
-    "cars-reporter-console": "https://github.com/bouzuya/cars-reporter-console",
+    "@bouzuya/cars-counter-bbn-entries": "^2.0.1",
+    "@bouzuya/cars-counter-github": "^2.0.2",
+    "@bouzuya/cars-counter-hatena-bookmark": "^2.0.1",
+    "@bouzuya/cars-counter-twitter": "^1.0.0",
+    "@bouzuya/cars-counter-wakeup": "^2.0.0",
+    "@bouzuya/cars-reporter-console": "^1.0.0",
     "express": "^4.16.4"
   },
   "devDependencies": {
