@@ -12,8 +12,12 @@ const main = async (): Promise<void> => {
     );
   const dependencies = Object.keys(pkg.dependencies || {});
 
-  const counters = dependencies.filter((i) => i.startsWith('cars-counter-'));
-  const reporters = dependencies.filter((i) => i.startsWith('cars-reporter-'));
+  const counters = dependencies.filter((i) => {
+    return i.match(/^(?:@[^\/]+\/)?cars-counter-/) !== null;
+  });
+  const reporters = dependencies.filter((i) => {
+    return i.match(/^(?:@[^\/]+\/)?cars-reporter-/) !== null;
+  });
 
   if (counters.length === 0 || reporters.length === 0) {
     // tslint:disable:no-console
