@@ -29,7 +29,10 @@
     "cars-reporter-hatena-graph": "https://github.com/bouzuya/cars-reporter-hatena-graph",
     "express": "^4.10.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tslint": "^5.14.0",
+    "typescript": "^3.3.3333"
+  },
   "homepage": "https://github.com/bouzuya/cars",
   "keywords": [
     "shuburi"
